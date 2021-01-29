@@ -1,0 +1,71 @@
+body {
+  background-color: rgb(197, 210, 245);
+  /* background-image: url("../images/img4.png");*/
+}
+.card-header {
+  background-color: rgb(61, 126, 163);
+  color: white;
+  text-align: center;
+}
+.card-body {
+  background-color: rgb(206, 233, 248);
+}
+
+.card {
+  margin-top: 90px;
+  position: absolute;
+  width: 500px;
+  height: 500px;
+}
+.welcome {
+  position: relative;
+}
+.btn {
+  font-size: 24px;
+} /*
+@media (max-width: 600px) {
+  #content1::after {
+    margin: 10px;
+  }
+}*/
+#content1:hover,
+#content2:hover,
+#content3:hover {
+  color: rgb(168, 52, 133);
+  background-color: azure;
+}
+#content2,
+#content3,
+#content1 {
+  border-radius: 12px;
+}
+#m1:hover,
+#m2:hover,
+#m3:hover {
+  color: blue;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Tahoma, Arial;
+}
+.slider-container {
+  margin: 10px auto;
+  width: 800px;
+  height: 250px;
+  position: relative;
+}
+.slider-container img {
+  position: absolute;
+  opacity: 0;
+  /* transition: opacity 5s; */
+}
+.slider-container img.active {
+  opacity: 1;
+}
+/* img {
+  display: block;
+} */
