@@ -1,12 +1,12 @@
 import React from 'react';
 import Jump from './Jumbtron';
-import Form from './Form';
+import CardComponent from './card';
 
 const Home =()=>{
     return(
         <div>
           <Jump/>
-          <Form/>
+          <CardComponent/>
 
         </div>
     )
