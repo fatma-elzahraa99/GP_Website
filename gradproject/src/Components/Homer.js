@@ -1,15 +1,25 @@
-import React from 'react';
+import React , {Component} from 'react';
 import Jump from './Jumbtron';
-import CardComponent from './card';
+import {Container , Row , Col } from 'react-bootstrap';
+import CardComponent from './card'
 
-const Home =()=>{
+class Home extends Component{
+  
+  render(){
     return(
-        <div>
-          <Jump/>
-          <CardComponent/>
+      <div>
+        <Jump/>
+        <Container>
+  <Row  className="justify-content-md-center">
+    <Col> <CardComponent/></Col>
+  </Row>
+</Container>
+      
+      </div>
 
-        </div>
-    )
+  );
 
+  }
+   
 }
 export default Home;
