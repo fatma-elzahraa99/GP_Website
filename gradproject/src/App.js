@@ -5,6 +5,7 @@ import Homer from './Components/Homer';
 import Signup from './Components/Signup';
 import Story from './Components/Story';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Footer from './Components/footer';
 
 
 
@@ -12,15 +13,19 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 class App extends Component{
   render(){
     return (
+      <div className="App">
         <BrowserRouter>
-        <div className="App">
+       
           <Nav/>
           <Route exact path="/" component={Homer}/>
           <Route  path="/signup" component={Signup}/>
           <Route  path="/story" component={Story}/>
 
-        </div>
+        
         </BrowserRouter> 
+
+        <Footer/>
+        </div>
     );
 
   }

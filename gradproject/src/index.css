@@ -5,7 +5,6 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: lavender;
 }
 
 code {
@@ -15,7 +14,13 @@ code {
 .navbar {
   overflow: hidden;
 
-  background-color: blueviolet;
+  background: rgb(44, 238, 238);
+  background: linear-gradient(
+    90deg,
+    rgba(44, 238, 238, 1) 0%,
+    rgba(48, 139, 147, 1) 50%,
+    rgba(62, 138, 166, 1) 100%
+  );
   color: aliceblue;
 }
 .container {
@@ -46,4 +51,17 @@ ul a {
   float: right;
   margin: 0;
   padding: 0;
+}
+.footer {
+  margin-top: 1rem;
+  padding: 1rem;
+  background: #308b93;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.jumpo {
+}
+.para {
+  color: aliceblue;
 }
