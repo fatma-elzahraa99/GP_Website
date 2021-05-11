@@ -11,7 +11,7 @@ class Home extends Component{
         <Jump/>
         <Container>
   <Row  className="justify-content-md-center">
-    <Col> <CardComponent/></Col>
+    <Col> <CardComponent /></Col>
   </Row>
 </Container>
       

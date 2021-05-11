@@ -1,10 +1,17 @@
 import React from 'react';
+import {Card} from 'react-bootstrap';
+import FormSignup from './Signupform';
 
 const Signup =()=>{
     return(
         <div>
-            <h>Signup</h>
-            <p>this is from signup component</p>
+             <Card class="nono">
+  <Card.Header className = 'CardHeader'>Sign Up</Card.Header>
+  <Card.Body>
+  <FormSignup action="/signedup"/>
+  </Card.Body>
+</Card>
+          
         </div>
     )
 

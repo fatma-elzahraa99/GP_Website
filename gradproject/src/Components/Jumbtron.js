@@ -1,11 +1,12 @@
 import React ,{Component} from 'react';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import theimage from '../image_2.jpg';
-
+import image_2 from './final.jpg';
 class Jump extends Component{
     render(){
         return(
             <Jumbotron className="jumpo">
+                
                 <div className="container ">
                     <div className="row row-header ">
                       <div class='col-12 col-sm-7' > 

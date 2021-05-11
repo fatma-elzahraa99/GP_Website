@@ -7,12 +7,13 @@ import {Button ,  Form } from 'react-bootstrap';
 class Forma extends Component{
   constructor(){
     super();
+    let action = "";
   }
     render(){
         return(
           
 
-<Form>
+<Form  action={this.props.action} >
 
   <Form.Group controlId="formBasicEmail">
     <Form.Label>Email address</Form.Label>
@@ -33,9 +34,9 @@ class Forma extends Component{
   <Form.Text >
      Not a user ?
     </Form.Text>
-    <Button  variant="primary" type="submit">
-    Signup
-  </Button>
+    <a class="btn btn-primary" href="/signup"> Signup</a>
+    
+ 
 
 </Form>
                               );
